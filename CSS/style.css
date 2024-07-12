@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+#facebook {
+  background-color: #f0f2f5;
+  height: 67vh;
+}
+
+.container {
+  width: 940px;
+  height: 20px;
+  margin: 0 auto;
+}
+.logo img {
+  height: 70px;
+}
+.write-a-content {
+  margin-left: 20px;
+}
+
+.account-section {
+  width: 50%;
+}
+.login-section {
+  width: 42%;
+  margin-top: 35px;
+}
+/*--------------------------------- account-------------------- */
+
+.account {
+  display: flex;
+  max-width: 355px;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.facebook-menu-wraper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.account-one-left {
+  width: 162px;
+  height: 206px;
+  border-radius: 12px;
+  background-color: #f5f6f7;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+}
+.account-one-left img {
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  margin-left: 2px;
+}
+
+.account-btn button {
+  font-size: 20px;
+  border: none;
+}
+.account-btn {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  opacity: 0.7;
+}
+.write-a-content-h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  opacity: 0.8;
+}
+.write-a-content-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+/*------------------------account-Two------------- */
+.new-account {
+  width: 162px;
+  height: 206px;
+  background-color: #f5f6f7;
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+}
+#new-account-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.new-account-img {
+  margin: 50px auto;
+}
+.account-btn2nd a {
+  padding: 8px 0;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #1976f2;
+}
+
+/* ----------------------------------------------------------------------------Login------------------------------------------------- */
+.login-from {
+  width: 396px;
+  height: 350px;
+  background-color: #ffff;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-from input {
+  background-color: #ffff;
+  border: solid 2px #dadde1;
+  padding: 15px 5px;
+  border-radius: 6px;
+  text-align: start;
+  width: 334px;
+}
+.login-btn button {
+  background-color: #0866ff;
+  color: #ffff;
+  padding: 15px 150px;
+  border-radius: 6px;
+  border: none;
+}
+.login-btn2nd button {
+  background-color: #36a420;
+  color: #ffff;
+  padding: 15px 50px;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------------------footer---------------------------------------- */
+#footer-part {
+  background-color: #ffffff;
+  width: 100%;
+  height: 30vh;
+}
+.footer-part-p{
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.footer-part-p2nd{
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.6;
+}
